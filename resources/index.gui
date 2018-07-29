@@ -1,0 +1,70 @@
+<svg class="background">
+
+
+  <use id="container" href="#panoramaview">
+    
+    <use id="item1" href="#panoramaview-item">
+      <text id="appTitle" />
+      <text id="ifStart" />
+      <text id="ifEnd" />
+      <text id="ifEndTime" />
+      <text id="hrsLeft" />
+      <text id="minLeft" />
+      <text id="cHrs" />
+      <text id="cMin" />
+      <g id="buttonGroup" pointer-events="visible">
+        <image id="sup" x="290" y="-10" width="63" height="63" href="icons/play.png" />
+      </g>
+    </use>
+    
+    <use id="item2" href="#panoramaview-item">
+      <text id="textLast" />
+      <text id="timeLast" />
+      <text id="textEnd" />
+      <text id="timeEnd" />
+    </use>
+    <use id="item3" href="#panoramaview-item">
+      <image x="28" y="68" width="108" height="108" href="icons/fire.png" />
+      <text id="cal" />
+      <text id="calText">cal</text>
+    </use>
+    <use id="item4" href="#panoramaview-item">
+      <image x="28" y="68" width="108" height="108" href="icons/foot.png" />
+      <text id="dist" />
+      <text id="distText">mi</text>
+    </use>
+    <use id="item5" href="#panoramaview-item">
+      <image x="28" y="68" width="108" height="108" href="icons/heart.png" />
+      <text id="hr" />
+      <text id="hrText">bpm</text>
+    </use>
+    <use id="item6" href="#panoramaview-item">
+      <image x="33" y="29" width="46" height="46" href="icons/settings.png" />
+      <text id="fast">Fasting for</text>
+      <svg y="145" height="70">
+    <!-- toggle button OFF -->
+    <use id="btn-off" href="#square-button-toggle" fill="fb-light-gray">
+      <set href="#text"  attributeName="text-buffer" to="16 Hrs" />
+    </use>
+    <!-- toggle button ON -->
+    <use id="btn-on" href="#square-button-toggle" value="1" x="50%" fill="fb-light-gray">
+      <set href="#text"  attributeName="text-buffer" to="14 Hrs" />
+    </use>
+  </svg>
+    </use>
+    
+
+    <!-- Have enough pagination dots for your slides (extras are hidden) -->
+    <use id="pagination-dots" href="#pagination-widget" y="8">
+      <use href="#pagination-dot" />
+      <use href="#pagination-dot" />
+      <use href="#pagination-dot" />
+      <use href="#pagination-dot" />
+      <use href="#pagination-dot" />
+      <use href="#pagination-dot" />
+      <use href="#pagination-highlight-dot" />
+    </use>
+  </use>
+</svg>
+
+

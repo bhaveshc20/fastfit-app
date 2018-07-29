@@ -1,0 +1,145 @@
+.background {
+  viewport-fill: black;
+}
+
+#button {
+  width: 80%; 
+  height: 20%;
+  fill: #bcd8f8;
+  x: 10%;
+  y: 70%;
+}
+
+#hrsLeft{
+  font-size:105;
+  font-family: Seville-Bold;
+  text-length: 2;
+  x:22;
+  y: 50%+30;
+  fill: white;
+}
+
+#minLeft{
+  font-size:105;
+  font-family: Seville-Book;
+  text-length: 2;
+  x:175;
+  y: 50%+30;
+  fill: white;
+}
+
+#cHrs{
+  font-size:35;
+  font-family: Seville-Bold;
+  text-length: 2;
+  x:140;
+  y: 50%+30;
+  fill: white;
+}
+
+#cMin{
+    font-size:35;
+  font-family: Seville-Bold;
+  text-length: 2;
+  x:290;
+  y: 50%+30;
+  fill: white;
+}
+
+#textLast{
+  font-size:30;
+  font-family: Seville-Bold;
+  text-length:15;
+  x:28;
+  y: 63;
+  fill: white;
+}
+#textEnd{
+  font-size:30;
+  font-family: Seville-Bold;
+  text-length:15;
+  x:28;
+  y: 168;
+  fill: white;
+}
+
+#timeLast{
+  font-size:60;
+  font-family: Seville-Bold;
+  text-length:15;
+  x:28;
+  y: 120;
+  fill: white;
+}
+
+#timeEnd{
+  font-size:60;
+  font-family: Seville-Bold;
+  text-length:15;
+  x:28;
+  y: 223;
+  fill: white;
+}
+
+#cal{
+  font-size: 110;
+  font-family: Seville-Book;
+  text-length: 3;
+  x:156;
+  y:50%+35;
+  fill: white; 
+}
+
+#calText{
+  font-size: 26;
+  font-family: Seville-Book;
+  text-length: 4;
+  x:270;
+  y:50%+65;
+  fill: white; 
+}
+
+#dist{
+  font-size: 110;
+  font-family: Seville-Book;
+  text-length: 3;
+  x:170;
+  y:50%+35;
+  fill: white; 
+}
+
+#distText{
+  font-size: 26;
+  font-family: Seville-Book;
+  text-length: 4;
+  x:270;
+  y:50%+65;
+  fill: white; 
+}
+
+#hr{
+  font-size: 110;
+  font-family: Seville-Book;
+  text-length: 3;
+  x:200;
+  y:50%+35;
+  fill: white; 
+}
+
+#hrText{
+  font-size: 26;
+  font-family: Seville-Book;
+  text-length: 4;
+  x:250;
+  y:50%+65;
+  fill: white; 
+}
+
+#fast{
+  font-size: 40;
+  font-family: Seville-Regular;
+  text-length: 15;
+  x:33;
+  y:125;
+  fill: white; 
+}
